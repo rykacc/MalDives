@@ -1,0 +1,37 @@
+Offset(P)  Name                    PID pslist psscan thrdproc pspcid csrss session deskthrd ExitTime
+---------- -------------------- ------ ------ ------ -------- ------ ----- ------- -------- --------
+0x7d7f1030 dwm.exe                 332 True   True   True     True   True  True    True     
+0x7ecb1d10 wininit.exe             420 True   True   True     True   True  True    True     
+0x7d605958 svchost.exe             852 True   True   True     True   True  True    True     
+0x7d5a5798 svchost.exe             924 True   True   True     True   True  True    True     
+0x7d6b3030 svchost.exe            1416 True   True   True     True   True  True    True     
+0x7d596030 lsm.exe                 544 True   True   True     True   True  True    False    
+0x7d64f1a0 SearchIndexer.         1132 True   True   True     True   True  True    True     
+0x7d017030 WmiPrvSE.exe           2852 True   True   True     True   True  True    True     
+0x7d5d6a58 svchost.exe             656 True   True   True     True   True  True    True     
+0x7d738030 SearchProtocol         2932 True   True   True     True   True  True    True     
+0x7d000030 svchost.exe            2636 True   True   True     True   True  True    True     
+0x7f339030 SearchFilterHo         2952 True   True   True     True   True  True    True     
+0x7d58f030 services.exe            520 True   True   True     True   True  True    False    
+0x7d6a73c8 spoolsv.exe            1376 True   True   True     True   True  True    True     
+0x7d0d2a10 dllhost.exe            3364 True   True   False    False  True  True    False    2023-07-17 22:50:13 UTC+0000
+0x7d5830b8 winlogon.exe            484 True   True   True     True   True  True    True     
+0x7f35e030 svchost.exe            1244 True   True   True     True   True  True    True     
+0x7d047908 VBoxTray.exe           1284 True   True   True     True   True  True    True     
+0x7d5ec440 svchost.exe             780 True   True   True     True   True  True    True     
+0x7d0b7760 conhost.exe            3328 True   True   True     True   True  True    True     
+0x7d5e1030 VBoxService.ex          716 True   True   True     True   True  True    True     
+0x7ff7a2d0 DumpIt.exe             3312 True   True   True     True   True  True    True     
+0x04bbeaf8 taskhost.exe            312 True   True   True     True   True  True    True     
+0x7d6472d8 audiodg.exe            1032 True   True   True     True   True  True    True     
+0x7de8b7e0 svchost.exe             972 True   True   True     True   True  True    True     
+0x7de99c10 sppsvc.exe             2600 True   True   True     True   True  True    True     
+0x7d594668 lsass.exe               536 True   True   True     True   True  True    False    
+0x7d00c030 explorer.exe           1140 True   True   True     True   True  True    True     
+0x7d65d378 svchost.exe            1108 True   True   True     True   True  True    True     
+0x7d6eb758 svchost.exe            1520 True   True   True     True   True  True    True     
+0x04b1ba00 System                    4 True   True   True     True   False False   False    
+0x7ecaf888 csrss.exe               428 True   True   True     True   False True    True     
+0x7ed57d40 smss.exe                280 True   True   True     True   False False   False    
+0x7ec7fac8 csrss.exe               368 True   True   True     True   False True    True     
+0x7ffaf030 dllhost.exe            3240 False  False  False    False  False False   True     2023-07-17 22:50:10 UTC+0000
