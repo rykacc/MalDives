@@ -1,0 +1,53 @@
+Offset(P)  Name                    PID pslist psscan thrdproc pspcid csrss session deskthrd ExitTime
+---------- -------------------- ------ ------ ------ -------- ------ ----- ------- -------- --------
+0x7d089d40 svchost.exe            1324 True   True   True     True   True  True    False    
+0x7d690030 SearchIndexer.          204 True   True   True     True   True  True    True     
+0x7d7f79e8 DumpIt.exe              156 True   True   True     True   True  True    True     
+0x7d73d788 svchost.exe            1540 True   True   True     True   True  True    True     
+0x7facb030 WinMail.exe            4008 True   True   True     True   True  True    True     
+0x7f9c4d40 iexplore.exe           3444 True   True   True     True   True  True    True     
+0x7d03e398 taskhost.exe           1592 True   True   True     True   True  True    True     
+0x7f534030 SearchFilterHo         2864 True   True   True     True   True  True    True     
+0x7d6da698 spoolsv.exe            1388 True   True   True     True   True  True    True     
+0x7db36030 dwm.exe                 328 True   True   True     True   True  True    True     
+0x7f81c508 iexplore.exe           1672 True   True   True     True   True  True    True     
+0x7d63bd40 svchost.exe             964 True   True   True     True   True  True    True     
+0x7d6f0030 svchost.exe            1424 True   True   True     True   True  True    True     
+0x7fa41d40 audiodg.exe            3348 True   True   True     True   True  True    True     
+0x7d598030 lsm.exe                 544 True   True   True     True   True  True    False    
+0x7d5f99a8 svchost.exe             788 True   True   True     True   True  True    True     
+0x7d592030 services.exe            516 True   True   True     True   True  True    False    
+0x7d65bc88 svchost.exe            1100 True   True   True     True   True  True    True     
+0x7f42b030 svchost.exe            3912 True   True   True     True   True  True    True     
+0x7d5cb638 VBoxService.ex          720 True   True   True     True   True  True    True     
+0x7d79d270 conhost.exe            2336 True   True   True     True   True  True    True     
+0x7d629d40 svchost.exe             908 True   True   True     True   True  True    True     
+0x7d584d40 winlogon.exe            484 True   True   True     True   True  True    True     
+0x7d044a88 VBoxTray.exe           1824 True   True   True     True   True  True    True     
+0x7f3a3030 wininit.exe             420 True   True   True     True   True  True    True     
+0x7f7fda78 TrustedInstall         2568 True   True   True     True   True  True    True     
+0x7f12b030 SearchProtocol         2880 True   True   True     True   True  True    True     
+0x7d686030 svchost.exe            1236 True   True   True     True   True  True    True     
+0x7faa9030 cmd.exe                2956 True   True   True     True   True  True    True     
+0x7d019260 sppsvc.exe             1196 True   True   True     True   True  True    True     
+0x7f45b770 msiexec.exe            3376 True   True   True     True   True  True    True     
+0x7fe88030 python.exe             3360 True   True   True     True   True  True    True     
+0x7f80c5e8 mmc.exe                2108 True   True   True     True   True  True    True     
+0x7d5df668 svchost.exe             660 True   True   True     True   True  True    True     
+0x7f503030 conhost.exe            1580 True   True   True     True   True  True    True     
+0x7d610370 svchost.exe             852 True   True   True     True   True  True    True     
+0x7d7df468 explorer.exe            508 True   True   True     True   True  True    True     
+0x7fdbd5f8 svchost.exe            1860 True   True   True     True   True  True    True     
+0x7d599030 lsass.exe               536 True   True   True     True   True  True    False    
+0x04b1ba00 System                    4 True   True   True     True   False False   False    
+0x7f52e030 uplep.exe              3160 True   True   False    True   False True    False    2023-07-21 20:52:56 UTC+0000
+0x7ec80020 smss.exe                280 True   True   True     True   False False   False    
+0x7d413d40 csrss.exe               368 True   True   True     True   False True    True     
+0x7f540a58 msiexec.exe            3828 True   True   False    True   False True    False    2023-07-21 20:37:44 UTC+0000
+0x7dae6770 csrss.exe               428 True   True   True     True   False True    True     
+0x294e0110 xB,??B,??B,??B,?     42...2 False  False  False    False  False False   True     
+0x7d7f7d40 dllhost.exe            3944 False  True   False    False  False False   False    2023-07-21 20:53:15 UTC+0000
+0x7d48dd40 csrss.exe               368 False  True   False    False  False False   False    
+0x7f9a9030 dllhost.exe            1408 False  True   False    False  False False   False    2023-07-21 20:53:16 UTC+0000
+0x7d507d40 csrss.exe               368 False  True   False    False  False False   False    
+0x7f11e6a8 SystemProperti         2136 False  True   False    False  False False   False    2023-07-21 20:38:06 UTC+0000
