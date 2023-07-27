@@ -12,9 +12,10 @@ Clone the repository using:
   ```sh
 git clone https://github.com/rykacc/MalDives.git
   ```
-Install dependencies:
+Install both Python2 and Python3 dependencies (Python2.7 is required for Volatility 2.5 to run):
   ```sh
 pip3 install -r requirements.txt
+pip install -r requirements_py2.txt
   ```
 For dynamic analysis of memory files:
   ```sh
