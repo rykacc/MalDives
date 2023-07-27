@@ -8,24 +8,6 @@ import warnings
 from sklearn.exceptions import DataConversionWarning
 
 warnings.filterwarnings(action='ignore', category=UserWarning)
-
-
-def extract_number(text):
-    return float(text.split(":")[-1].strip())
-
-scripts = ["pslist.py", "dlllist.py", "handles.py", "ldrmodule.py", "malfind.py", "psxview.py", "modules.py", "svcscan.py", "callbacks.py"]
-results = []
-
-for script in scripts:
-    result = subprocess.run(["python", script], stdout=subprocess.PIPE, text=True)
-    for line in result.stdout.split("\n"):
-        if ":" in line:
-            results.append(extract_number(line))
-
-with open('output.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(results)
-    
 # Load CSV data
 data = pd.read_csv("output.csv", header=None)
 
