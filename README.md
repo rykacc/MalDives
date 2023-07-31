@@ -23,5 +23,9 @@ python3 maldives.py -d [path/to/image_file]
   ```
 For static analysis of PE files:
   ```sh
-python3 maldives.py -s [path/to/image_file]
+python3 maldives.py -s [path/to/PE_file]
+  ```
+For direct analysis of CSV files (IMPORTANT: Features must match /dynamic/features.txt):
+  ```sh
+python3 maldives.py -c [path/to/csv_file]
   ```
