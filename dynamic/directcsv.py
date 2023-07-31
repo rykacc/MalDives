@@ -1,3 +1,5 @@
+import os
+import mimetypes
 import argparse
 import csv
 import subprocess
@@ -17,6 +19,25 @@ parser.add_argument('filepath', type=str, help='Path to the CSV file')
 
 # Parse arguments
 args = parser.parse_args()
+
+# Define helper function to verify file type based on extension
+def check_file(file_path, expected_ext):
+    if not os.path.isfile(file_path):
+        print(f"Error: File {file_path} does not exist.")
+        return False
+    mimetype = mimetypes.guess_type(file_path)[0]
+    if mimetype is None:
+        print(f"Error: Unable to determine the type of file {file_path}.")
+        return False
+    ext = mimetypes.guess_extension(mimetype)
+    if ext != expected_ext:
+        print(f"Error: File {file_path} is not of expected type {expected_ext}.")
+        return False
+    return True
+
+# Check if file is of expected type
+if not check_file(args.filepath, ".csv"):
+    exit()
 
 # Load CSV data
 data = pd.read_csv(args.filepath, header=None)
