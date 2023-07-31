@@ -1,0 +1,27 @@
+name: py27
+channels:
+  - defaults
+dependencies:
+  - blas=1.0=mkl
+  - ca-certificates=2023.05.30=haa95532_0
+  - certifi=2020.6.20=pyhd3eb1b0_3
+  - icc_rt=2022.1.0=h6049295_2
+  - intel-openmp=2022.0.0=haa95532_3663
+  - mkl=2020.2=256
+  - mkl-service=2.3.0=py27h0b88c2a_0
+  - mkl_fft=1.0.15=py27h44c1dab_0
+  - numpy=1.16.6=py27hcd21bde_0
+  - numpy-base=1.16.6=py27hb1d0314_0
+  - pip=19.3.1=py27_0
+  - python=2.7.18=hfb89ab9_0
+  - setuptools=44.0.0=py27_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - sqlite=3.30.1=h0c8e037_0
+  - vc=9=h2eaa2aa_6
+  - vs2008_runtime=9.00.30729.1=haa95532_6
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - wincertstore=0.2=py27hf04cefb_0
+  - pip:
+      - distorm3==3.5.2
+      - pycryptodome==3.18.0
+prefix: C:\Users\zryka\anaconda3\envs\py27
